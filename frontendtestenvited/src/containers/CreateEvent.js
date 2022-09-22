@@ -44,8 +44,6 @@ const CreateEvent = () => {
     else Navigate("/event", { state: { ...eventData } });
   };
 
-  console.log("Event data: ", eventData);
-
   return (
     <CreateEventContainer>
       <h1 className="heading">

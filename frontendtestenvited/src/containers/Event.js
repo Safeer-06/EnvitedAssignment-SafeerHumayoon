@@ -55,7 +55,6 @@ const Event = () => {
   const Location = useLocation();
   const { eventName, hostName, startDate, endDate, location, eventPicture } =
     Location.state;
-  console.log("LOCAITONS: ", Location);
   return (
     <EventDetailContainer>
       <div className="eventDetailBox">
